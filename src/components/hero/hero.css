@@ -1,0 +1,31 @@
+.hero {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+}
+.hero-content {
+  padding-left: 2rem;
+  padding-top: 5rem;
+}
+.hero-content > h2 {
+  font-size: 3rem;
+}
+.hero-content > p {
+  font-size: 1.5rem;
+  width: 70%;
+}
+img {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero-content {
+    padding-top: 2rem;
+  }
+  .hero-content > p {
+    width: 80%;
+  }
+}
